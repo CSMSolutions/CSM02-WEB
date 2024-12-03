@@ -1,33 +1,490 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\PTUDTM\\WEB_APP\\CSM_WEB\\",
+  "WorkspaceRootPath": "D:\\PTUDTM\\CSM\\CSM02-WEB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\web_app\\csm_web\\doanchuyennganh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\controllers\\paycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\controllers\\paycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\unitydependencyresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\unitydependencyresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\services\\vnpayserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\services\\vnpayserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\models\\vnpayconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\models\\vnpayconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\models\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\models\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\services\\ivnpayservers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\services\\ivnpayservers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\views\\pay\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\views\\pay\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\controllers\\lienhecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\controllers\\lienhecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\helper\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\helper\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\views\\lienhe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\views\\lienhe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|D:\\PTUDTM\\CSM\\CSM02-WEB\\doanchuyennganh\\knn\\phanloaiknn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\knn\\phanloaiknn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|D:\\PTUDTM\\CSM\\CSM02-WEB\\doanchuyennganh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:57:19.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:57:09.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\packages.config",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\packages.config",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\packages.config",
+              "RelativeToolTip": "DoAnChuyenNganh\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-03T11:53:14.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Global.asax.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Global.asax.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Global.asax.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Global.asax.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:53:05.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "DoAnChuyenNganh\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T11:52:25.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "web.config",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\web.config",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\web.config",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\web.config",
+              "RelativeToolTip": "DoAnChuyenNganh\\Views\\web.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-03T11:52:24.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VnPaymentResponseModel.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Models\\VnPaymentResponseModel.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Models\\VnPaymentResponseModel.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Models\\VnPaymentResponseModel.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Models\\VnPaymentResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:51:32.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VnPayConfig.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Models\\VnPayConfig.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Models\\VnPayConfig.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Models\\VnPayConfig.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Models\\VnPayConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:51:44.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\UserController.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEgBAAAAAAAAAAAqwHkBAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:43:27.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\PTUDTM\\WEB_APP\\CSM_WEB\\DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "DoAnChuyenNganh\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T11:40:18.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Pay\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\Pay\\Index.cshtml",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Pay\\Index.cshtml",
+              "RelativeToolTip": "DoAnChuyenNganh\\Views\\Pay\\Index.cshtml",
+              "ViewState": "AgIAALsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T11:39:54.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Web.config",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Web.config",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Web.config",
+              "RelativeToolTip": "DoAnChuyenNganh\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-03T11:39:17.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnityDependencyResolver.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\UnityDependencyResolver.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\UnityDependencyResolver.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\UnityDependencyResolver.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\UnityDependencyResolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:39:13.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Startup.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Startup.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Startup.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Startup.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:38:55.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\AddressController.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\AddressController.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\AddressController.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Controllers\\AddressController.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:38:05.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\CartController.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:38:00.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:37:53.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LienHeController.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\LienHeController.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\LienHeController.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\LienHeController.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Controllers\\LienHeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:37:51.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:37:41.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:37:37.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PayController.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\PayController.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\PayController.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\PayController.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Controllers\\PayController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwNwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:36:43.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnityConfig.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\App_Start\\UnityConfig.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\App_Start\\UnityConfig.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\App_Start\\UnityConfig.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\App_Start\\UnityConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:36:38.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IVnPayServers.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Services\\IVnPayServers.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Services\\IVnPayServers.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Services\\IVnPayServers.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Services\\IVnPayServers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:36:28.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VnPayServer.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Services\\VnPayServer.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Services\\VnPayServer.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Services\\VnPayServer.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Services\\VnPayServer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwC0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:36:16.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Helper\\VnPayLibrary.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Helper\\VnPayLibrary.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Helper\\VnPayLibrary.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\Helper\\VnPayLibrary.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:36:07.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\LienHe\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\LienHe\\Index.cshtml",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\LienHe\\Index.cshtml",
+              "RelativeToolTip": "DoAnChuyenNganh\\Views\\LienHe\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T11:22:16.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PhanLoaiKNN.cs",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\KNN\\PhanLoaiKNN.cs",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\KNN\\PhanLoaiKNN.cs",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\KNN\\PhanLoaiKNN.cs",
+              "RelativeToolTip": "DoAnChuyenNganh\\KNN\\PhanLoaiKNN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:17:37.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\PTUDTM\\WEB_APP\\CSM_WEB\\DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T11:16:57.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T11:16:57.338Z"
             }
           ]
         }

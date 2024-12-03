@@ -366,7 +366,7 @@ namespace DoAnChuyenNganh.Controllers
         private void SendVerificationCodeToEmail(string email, string verificationCode)
         {
             var mail = new System.Net.Mail.MailMessage();
-            mail.From = new System.Net.Mail.MailAddress("huythang1306@gmail.com");
+            mail.From = new System.Net.Mail.MailAddress("tranthengocmaia14@gmail.com");
             mail.To.Add(email);
             mail.Subject = "Mã Xác Thực";
 
@@ -375,7 +375,7 @@ namespace DoAnChuyenNganh.Controllers
             var smtp = new System.Net.Mail.SmtpClient("smtp.gmail.com")
             {
                 Port = 587,
-                Credentials = new System.Net.NetworkCredential("huythang1306@gmail.com", "tkis metb fjre ailo"),
+                Credentials = new System.Net.NetworkCredential("tranthengocmaia14@gmail.com", "vhwn hknx grrw bjdv"),
                 EnableSsl = true
             };
 
