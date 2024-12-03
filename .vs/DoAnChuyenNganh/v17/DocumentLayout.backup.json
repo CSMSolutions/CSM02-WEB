@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "D:\\PTUDTM\\CSM\\CSM02-WEB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|D:\\PTUDTM\\CSM\\CSM02-WEB\\doanchuyennganh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|D:\\PTUDTM\\CSM\\CSM02-WEB\\doanchuyennganh\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|D:\\PTUDTM\\CSM\\CSM02-WEB\\doanchuyennganh\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|d:\\ptudtm\\csm\\csm02-web\\doanchuyennganh\\controllers\\paycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|D:\\PTUDTM\\CSM\\CSM02-WEB\\doanchuyennganh\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|D:\\PTUDTM\\CSM\\CSM02-WEB\\doanchuyennganh\\controllers\\paycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E290E8C-05C0-49D1-B1A3-EA8F0F21CCE4}|DoAnChuyenNganh\\DoAnChuyenNganh.csproj|solutionrelative:doanchuyennganh\\controllers\\paycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -122,11 +134,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 27,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAcwJQAAACRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T11:16:57.338Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\css\\style.css",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\css\\style.css",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\css\\style.css",
+              "RelativeToolTip": "DoAnChuyenNganh\\css\\style.css",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAcwMIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-03T12:55:06.325Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutPage1.cshtml",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "DoAnChuyenNganh\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T13:24:15.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "DoAnChuyenNganh\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAALYAAAAAAAAAAAAswNMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T13:10:44.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\App_Start\\RouteConfig.cs",
@@ -138,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Properties\\AssemblyInfo.cs",
@@ -150,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "packages.config",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\packages.config",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\packages.config",
@@ -162,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Global.asax.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Global.asax.cs",
@@ -174,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\_ViewStart.cshtml",
@@ -186,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "web.config",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\web.config",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\web.config",
@@ -198,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "VnPaymentResponseModel.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Models\\VnPaymentResponseModel.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Models\\VnPaymentResponseModel.cs",
@@ -210,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "VnPayConfig.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Models\\VnPayConfig.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Models\\VnPayConfig.cs",
@@ -222,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\UserController.cs",
@@ -234,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\Cart\\Index.cshtml",
@@ -246,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Pay\\Index.cshtml",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\Pay\\Index.cshtml",
@@ -258,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Web.config",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Web.config",
@@ -271,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "UnityDependencyResolver.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\UnityDependencyResolver.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\UnityDependencyResolver.cs",
@@ -283,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Startup.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Startup.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Startup.cs",
@@ -295,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "AddressController.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\AddressController.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\AddressController.cs",
@@ -307,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\CartController.cs",
@@ -319,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\HomeController.cs",
@@ -331,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "LienHeController.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\LienHeController.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\LienHeController.cs",
@@ -343,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\ProductController.cs",
@@ -355,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\OrderController.cs",
@@ -367,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PayController.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Controllers\\PayController.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Controllers\\PayController.cs",
@@ -375,12 +440,11 @@
               "RelativeToolTip": "DoAnChuyenNganh\\Controllers\\PayController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T11:36:43.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T11:36:43.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "UnityConfig.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\App_Start\\UnityConfig.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\App_Start\\UnityConfig.cs",
@@ -392,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "IVnPayServers.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Services\\IVnPayServers.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Services\\IVnPayServers.cs",
@@ -404,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "VnPayServer.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Services\\VnPayServer.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Services\\VnPayServer.cs",
@@ -416,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "VnPayLibrary.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Helper\\VnPayLibrary.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Helper\\VnPayLibrary.cs",
@@ -428,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\LienHe\\Index.cshtml",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\LienHe\\Index.cshtml",
@@ -440,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "PhanLoaiKNN.cs",
               "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\KNN\\PhanLoaiKNN.cs",
               "RelativeDocumentMoniker": "DoAnChuyenNganh\\KNN\\PhanLoaiKNN.cs",
@@ -449,19 +513,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T11:17:37.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\PTUDTM\\CSM\\CSM02-WEB\\DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "DoAnChuyenNganh\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAE0AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T11:16:57.338Z",
-              "EditorCaption": ""
             }
           ]
         }
