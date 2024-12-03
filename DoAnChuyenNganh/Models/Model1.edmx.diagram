@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="599509d56e9c4a6091f787186447fbed" Name="Diagram1">
+        <EntityTypeShape EntityType="CSMModel.ChiTietDonHang" Width="1.5" PointX="7.5" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSMModel.ChiTietKhuyenMai" Width="1.5" PointX="3.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSMModel.ChiTietSanPham" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSMModel.DanhMuc" Width="1.5" PointX="1.5" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSMModel.DonHang" Width="1.5" PointX="5.25" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSMModel.GioHang" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSMModel.KhuyenMai" Width="1.5" PointX="1.5" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSMModel.Mau" Width="1.5" PointX="1.5" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSMModel.NguoiDung" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSMModel.PhanHoi" Width="1.5" PointX="6" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSMModel.SanPham" Width="1.5" PointX="1.5" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSMModel.Size" Width="1.5" PointX="1.5" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSMModel.ThongTinGiaoHang" Width="1.5" PointX="3" PointY="20" IsExpanded="true" />
+        <AssociationConnector Association="CSMModel.FK__ChiTietDo__DonHa__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__ChiTietDo__SanPh__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__ChiTietKh__Khuye__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__ChiTietKh__SanPh__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__ChiTietSa__MauID__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__ChiTietSa__SanPh__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__ChiTietSa__SizeI__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__GioHang__SanPham__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__SanPham__DanhMuc__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__DonHang__DiaChiI__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__DonHang__NguoiDu__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__DonHang__NhanVie__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__GioHang__NguoiDu__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__PhanHoi__NguoiDu__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__ThongTinG__Nguoi__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="CSMModel.FK__PhanHoi__SanPham__66603565" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

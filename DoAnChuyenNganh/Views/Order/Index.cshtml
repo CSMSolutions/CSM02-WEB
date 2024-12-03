@@ -1,0 +1,131 @@
+﻿@model List<DoAnChuyenNganh.Models.DonHang>
+
+@{
+    ViewBag.Title = "Lịch sử đơn hàng";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+@section slmua{
+    <span id="cartItemCount">@ViewBag.SLSP</span>
+}
+
+<div style="height: 100px"></div>
+
+<!-- Nút sắp xếp -->
+<div class="text-center mb-4">
+    <a href="@Url.Action("Index", new { sortOrder = (ViewBag.SortOrder == "asc" ? "desc" : "asc") })"
+       class="btn btn-outline-dark btn-lg"
+       style="border-radius: 25px; padding: 10px 20px; font-size: 18px;">
+        Sắp xếp theo: @(ViewBag.SortOrder == "asc" ? "Mới nhất" : "Cũ nhất")
+    </a>
+</div>
+
+<!-- Thông tin đơn hàng -->
+<div class="container mt-5">
+    <h2 class="text-center text-dark mb-4" style="font-weight: bold;">Lịch sử đơn hàng</h2>
+
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead class="bg-dark text-white">
+                <tr>
+                    <th class="text-center">Ngày đặt hàng</th>
+                    <th class="text-center">Tình trạng</th>
+                    <th class="text-center">Hình thức thanh toán</th>
+                    <th class="text-center">Tổng tiền</th>
+                    <th class="text-center">Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Count > 0)
+                {
+                    foreach (var order in Model)
+                    {
+                        <tr>
+                            <td class="text-center align-middle">@order.NgayDatHang</td>
+                            <td class="text-center align-middle">
+                                <span class="badge @(order.TinhTrangDonHang == "Đã Xác Nhận" ? "bg-success" :
+                                                      order.TinhTrangDonHang == "Đang Vận Chuyển" ? "bg-warning text-dark" : "bg-secondary")">
+                                    @order.TinhTrangDonHang
+                                </span>
+                            </td>
+                            <td class="text-center align-middle">
+                                @(order.HinhThucThanhToan == "cash" ? "Tiền mặt" : "VNPAY")
+                            </td>
+                            <td class="text-center align-middle text-success font-weight-bold">
+                                @order.TongTien.ToString("N0") VNĐ
+                            </td>
+                            <td class="text-center align-middle">
+                                <a href="@Url.Action("Details", "Order", new { id = order.DonHangID })"
+                                   class="btn btn-info btn-sm"
+                                   title="Xem chi tiết">
+                                    <i class="fa fa-eye"></i> Xem chi tiết
+                                </a>
+                                @if (order.TinhTrangDonHang == "Đang xử lý")
+                                {
+                                    <a href="@Url.Action("Cancel", "Order", new { id = order.DonHangID })"
+                                       class="btn btn-danger btn-sm">
+                                        <i class="fa fa-times-circle"></i> Hủy Đơn Hàng
+                                    </a>
+                                }
+                                else if (order.TinhTrangDonHang == "Đang Vận Chuyển")
+                                {
+                                    <a href="@Url.Action("index", "Rate", new { id = order.DonHangID })"
+                                       class="btn btn-success btn-sm">
+                                        <i class="fa fa-check-circle"></i> Đã Nhận Hàng
+                                    </a>
+                                }
+                                else
+                                {
+                                    <button class="btn btn-secondary btn-sm" disabled>
+                                        <i class="fa fa-ban"></i> Không thể thao tác
+                                    </button>
+                                }
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5" class="text-center text-danger font-weight-bold">
+                            Bạn chưa có đơn hàng nào!
+                        </td>
+                    </tr>
+                }
+                <tr>
+                    <td colspan="5" class="text-center">
+                        <a href="/product" class="btn btn-outline-success">Tiếp tục mua hàng</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Phân trang -->
+<div class="pagination justify-content-center mt-4">
+    @if (ViewBag.NoOfPages > 1)
+    {
+        <ul class="pagination">
+            <li class="page-item @(ViewBag.Page == 1 ? "disabled" : "")">
+                <a href="/Order?page=1&sortOrder=@ViewBag.SortOrder" class="page-link">Trang đầu</a>
+            </li>
+            <li class="page-item @(ViewBag.Page == 1 ? "disabled" : "")">
+                <a href="/Order?page=@(ViewBag.Page - 1)&sortOrder=@ViewBag.SortOrder" class="page-link">Trang trước</a>
+            </li>
+
+            @for (int i = 1; i <= ViewBag.NoOfPages; i++)
+            {
+                <li class="page-item @(ViewBag.Page == i ? "active" : "")">
+                    <a href="/Order?page=@i&sortOrder=@ViewBag.SortOrder" class="page-link">@i</a>
+                </li>
+            }
+
+            <li class="page-item @(ViewBag.Page == ViewBag.NoOfPages ? "disabled" : "")">
+                <a href="/Order?page=@(ViewBag.Page + 1)&sortOrder=@ViewBag.SortOrder" class="page-link">Tiếp theo</a>
+            </li>
+            <li class="page-item @(ViewBag.Page == ViewBag.NoOfPages ? "disabled" : "")">
+                <a href="/Order?page=@ViewBag.NoOfPages&sortOrder=@ViewBag.SortOrder" class="page-link">Trang cuối</a>
+            </li>
+        </ul>
+    }
+</div>
