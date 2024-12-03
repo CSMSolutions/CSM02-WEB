@@ -67,32 +67,40 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active rounded">
                             <div class="carousel-item-container">
-                                <img src="~/img/anhbanner4.png" class="img-fluid w-100 h-100 bg-secondary rounded" alt="First slide">
+                                <img src="~/img/hinh173.jpg" class="img-fluid w-100 h-150 bg-secondary rounded" alt="First slide">
                             </div>
                         </div>
                         <div class="carousel-item rounded">
                             <div class="carousel-item-container">
-                                <img src="~/img/banner2.jpg" class="img-fluid w-100 h-100 rounded" alt="Second slide">
+                                <img src="~/img/hinh195.jpg" class="img-fluid w-100 h-150 rounded" alt="Second slide">
                             </div>
                         </div>
                         <div class="carousel-item rounded">
                             <div class="carousel-item-container">
-                                <img src="~/img/banner3.jpg" class="img-fluid w-100 h-100 rounded" alt="Third slide">
+                                <img src="~/img/hinh351.jpg" class="img-fluid w-100 h-150 rounded" alt="Third slide">
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    @*<button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Trước</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Sau</span>
+                    </button>*@
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev" style="background: black;">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden" style="background: white" ;>Trước</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next" style="background: black;">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden" style="background: white">Sau</span>
                     </button>
                 </div>
             </div>
 
-            <style>
+            @*<style>
                 /* Đặt chiều cao và chiều rộng cố định cho khung ảnh */
                 .carousel-item-container {
                     width: 100%;
@@ -106,7 +114,7 @@
                         width: 100%; /* Chiếm toàn bộ chiều rộng của khung */
                         height: 100%; /* Chiếm toàn bộ chiều cao của khung */
                     }
-            </style>
+            </style>*@
 
 
         </div>
@@ -146,7 +154,7 @@
                                                         <img src="~/img/@a.HinhAnhUrl" class="img-fluid w-100 rounded-top product-img-fixed grayscale" alt="Hết hàng">
                                                     }
                                                 </div>
-                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">
+                                                <div class="text-white px-3 py-1  position-absolute" style=" left: 10px; background: #000000">
                                                     <p>
                                                         @a.SanPham.DanhMuc.TenDanhMuc
                                                     </p>
@@ -158,7 +166,7 @@
                                                     @if (a.GiaDuocGiam == 0)
                                                     {
                                                         <a href="/product/details/@a.SanPhamID">
-                                                            <span class="price-discounted" style="margin-right: 10px; font-size: 1em; font-family: 'Arial', sans-serif; color: green; font-weight: bold;">
+                                                            <span class="price-discounted" style="margin-right: 10px; font-size: 1em; font-family: 'Arial', sans-serif; color: black; font-weight: bold;">
                                                                 @a.Gia.ToString("N0") VNĐ
                                                             </span>
                                                         </a>
@@ -177,7 +185,7 @@
                                                                     -@((a.GiaDuocGiam ?? 0).ToString("N0")) VNĐ
                                                                 </span>
                                                             </h4>
-                                                            <h4 class="price-discounted" style="color: green; font-size: 1em; font-weight: bold; font-family: 'Arial', sans-serif;">
+                                                            <h4 class="price-discounted" style="color: black; font-size: 1em; font-weight: bold; font-family: 'Arial', sans-serif;">
                                                                 @((GiaThucTe ?? 0).ToString("N0")) VNĐ
                                                             </h4>
                                                         </a>
